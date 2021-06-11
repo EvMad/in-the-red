@@ -5,6 +5,15 @@ var time = moment();
 var currentDaY = time.format("MMM Do, YYYY");
 $("#currentDay").text(currentDaY);
 
+// local storage
+
+$(".saveBtn").on("click", function() {
+
+    var value = $(this).sibling("textarea").val();
+    
+    localStorage.setItem(value);
+})
+
 
 //color code
 
