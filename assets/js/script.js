@@ -54,6 +54,22 @@ $(".saveBtn").on("click", function() {
     // convert that data we just grabbed into a json string
     localStorage.setItem(idOfTextArea, textContent);
     // set it to local storage
+
+    
+    
+    function getSaved(value) {
+        var savedNine = localStorage.getItem('9am');
+        document.getElementById("#9am").innerHTML = savedNine;  
+
+        var savedTen = localStorage.getItem('10am');
+        document.getElementById("#10am").innerHTML = savedTen;  
+
+    };
+    
+        
+
+
+
     // test it
 
     
