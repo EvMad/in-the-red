@@ -13,6 +13,10 @@ Screenshot of the app during the 9am hour:
 
 ![screenshot](scheduler.png)
 
+Screencast of the app functioning during the 11am hour:
+
+![screencast2](schedulerAM.gif)
+
 Screencast of the app functioning after 6pm:
 
 ![screencast1](schedulerGrey.gif)
