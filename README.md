@@ -9,6 +9,10 @@ The application utilizes local storage to save the day's events.
 
 ### Screencasts
 
+Screenshot of the app during the 9am hour:
+
+![screenshot](scheduler.png)
+
 Screencast of the app functioning after 6pm:
 
 ![screencast1](schedulerGrey.gif)
